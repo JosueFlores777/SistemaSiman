@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 // interfaz abtracta
 //para dependecia independite 
-namespace InvetariosSiman.Models
+namespace Models.Models
 {
     internal interface IProdcutsRepository
     {
-        void add(Products productRepo);
-        void Edit(Products productRepo);
-        void Delete(int id);
-        IEnumerable<Products> GetAll();
-        IEnumerable<Products> GetByBalue(int id);//searchs
+        void AddProdu(Products IProductRepo);
+        void EditProduc(Products IProductRepo);
+        void DeleteProduc(int IdPrdocut);
+        IEnumerable<Products> GetAllProduct();
+        IEnumerable<Products> GetByProductValue(int IdProducts);//searchs
+    
     }
 }

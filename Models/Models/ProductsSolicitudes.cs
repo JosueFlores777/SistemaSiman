@@ -1,4 +1,4 @@
-﻿using InvetariosSiman.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,8 +18,8 @@ namespace Models.Models
 
         //Properties
         public int IdProductProApli1
-        {
-            get => IdProductProApli; set => IdProductProApli = value;
+        {//references
+            get => IdProductProApli; set => IdProductProApli = base.IdProduct1;
         }
         public int IdVentaProductProApli1
         {

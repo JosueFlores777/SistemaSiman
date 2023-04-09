@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models.Models
 {
-    internal class solicitudes
+    internal class Solicitudes
     {
         private int IdApplicationSoli;
         private int idClientAplicat;
