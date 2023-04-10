@@ -8,6 +8,11 @@ namespace Models.Models
 {
     internal interface IRolRepocs
     {
- 
+        void AddRol(Rol IRolRepo);
+        void EditRol(Rol IRolRepo);
+        void DeleteRol(int IdRol);
+
+        IEnumerable<Rol> GetAllRol();
+        IEnumerable<Rol> GetByRolValue(int IdRol);
     }
 }
